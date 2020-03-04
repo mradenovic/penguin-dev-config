@@ -38,6 +38,8 @@ git config --global merge.conflictstyle diff3
 git config --global core.editor "nano"
  
 git config --list
+
+curl -sL https://raw.githubusercontent.com/mradenovic/penguin-dev-config/master/config-git-completion.sh | bash
  
 
 # add vs code repo
