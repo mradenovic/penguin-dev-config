@@ -12,6 +12,7 @@ sudo apt update && sudo apt install code -y
 
 # install nvm and expo
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+bash
 nvm install --lts
 npm install -g expo-cli
 
