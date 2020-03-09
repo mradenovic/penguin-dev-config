@@ -13,8 +13,8 @@ source ~/.git-terminal-config/git-prompt.sh
 
 # colors!
 cyan="\[\033[38;05;38m\]"
-green="\[\033[0;32m\]"
-blue="\[\033[0;34m\]"
+green="\[\033[01;32m\]"
+blue="\[\033[01;34m\]"
 reset="\[\033[0m\]"
 
 export GIT_PS1_SHOWDIRTYSTATE=1
