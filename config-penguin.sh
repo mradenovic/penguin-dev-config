@@ -9,6 +9,10 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" 
 
 # install vscode
 sudo apt update && sudo apt install code -y
+code --install-extension file-icons.file-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
 
 # install nvm and expo
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
